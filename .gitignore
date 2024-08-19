@@ -163,6 +163,6 @@ venv/
 chromadb/
 notebooks/
 venv2/
-.sqlite3
+chroma.sqlite3
 .bin
 test/
