@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Replace with your EC2 instance's public IP or domain
-EC2_ENDPOINT = "http://your-ec2-public-ip-or-domain"
+EC2_ENDPOINT = "https://18.234.176.247/"
 
 st.title("RAG Query System")
 
