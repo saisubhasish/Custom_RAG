@@ -164,5 +164,5 @@ chromadb/
 notebooks/
 venv2/
 chroma.sqlite3
-.bin
+*.bin
 test/

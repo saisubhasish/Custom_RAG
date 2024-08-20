@@ -78,8 +78,8 @@ app = FastAPI()
 # Constants
 FILE_DIRECTORY = 'data'
 # MODEL_PATH = "models/gemma-2-2b-it-Q6_K.gguf"
-# MODEL_PATH = "models/llama-2-7b-chat.Q2_K.gguf"
-MODEL_PATH = "models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
+MODEL_PATH = "models/llama-2-7b-chat.Q2_K.gguf"
+# MODEL_PATH = "models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
 CHROMA_PERSIST_DIRECTORY = "./chroma_db"
 
 

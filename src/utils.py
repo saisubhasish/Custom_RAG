@@ -12,7 +12,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader, CSVLoader
 
-from logger import logger
+from src.logger import logger
 
 def initialize_rag_system(MODEL_PATH, FILE_DIRECTORY, CHROMA_PERSIST_DIRECTORY):
     # For any one file type (eg. pdf, text, csv) use the code below
@@ -24,14 +24,14 @@ def initialize_rag_system(MODEL_PATH, FILE_DIRECTORY, CHROMA_PERSIST_DIRECTORY):
         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         db = Chroma(persist_directory=CHROMA_PERSIST_DIRECTORY, embedding_function=embeddings)
     else:
-        # # Loading pdf files
-        # all_splits = load_pdf_files(FILE_DIRECTORY)
+        # Loading pdf files
+        all_splits = load_pdf_files(FILE_DIRECTORY)
         
         # # Loading text files
         # all_splits = load_text_files(FILE_DIRECTORY)
 
-        # Loading CSV files
-        all_splits = load_csv_files(FILE_DIRECTORY)
+        # # Loading CSV files
+        # all_splits = load_csv_files(FILE_DIRECTORY)
 
         logger.info(f"Created {len(all_splits)} text chunks")
         
