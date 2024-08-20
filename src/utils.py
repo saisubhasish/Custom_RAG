@@ -16,7 +16,7 @@ from src.logger import logger
 
 def initialize_rag_system(MODEL_PATH, FILE_DIRECTORY, CHROMA_PERSIST_DIRECTORY):
     # For any one file type (eg. pdf, text, csv) use the code below
-    # Otherwise delete the 'chroma_db' directory and and run it again in case you are changing the file type
+    # Otherwise delete the 'chroma_db' directory and and rerun it in case you are changing the file type
 
     # Check if Chroma database already exists 
     if os.path.exists(CHROMA_PERSIST_DIRECTORY):
