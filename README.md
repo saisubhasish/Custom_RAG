@@ -2,7 +2,7 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) system for querying data (local) using large language models (local) and vector databases (local).
 
-![Screenshot 2024-08-16 213408](https://github.com/user-attachments/assets/5b5c5637-7330-4726-9511-6315574729c3)
+![Screenshot 2024-08-20 095115](https://github.com/user-attachments/assets/62ef5dbb-49ee-492b-8b58-304c0129246c)
 
 TO RUN CODE FOR EACH DATA TYPE (eg. PDF or CSV or TEX) PLEASE FIRST DELETE THE "chroma_db" FOLDER AND RUN THE CODE.
 
