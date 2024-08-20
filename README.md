@@ -31,10 +31,13 @@ pip install -r requirements.txt
 ### 3. Download Models
 Download the following models and place them in the models directory:
 
-Gemma 2 2B
-Llama-2 7B Chat
-Meta Llama 3.1 8B Instruct
-Mistral 7B Instruct
+Gemma 2 2B: https://huggingface.co/NickTsaizer/gemma-2-2b-it-Q6_K-GGUF
+
+Llama-2 7B Chat: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q2_K.gguf
+
+Meta Llama 3.1 8B Instruct: https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/blob/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
+
+Mistral 7B Instruct: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_S.gguf
 
 Usage
 1. Start the Backend Server
